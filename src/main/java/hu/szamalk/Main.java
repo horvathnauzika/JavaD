@@ -7,4 +7,6 @@ public class Main {
         System.out.println("9. feladat: Üres oszlopok és sorok száma:");
         System.out.println("Oszlopok: " + tábla.ÜresOszlopokSzáma() + "\n" + "Sorok: "+tábla.ÜresSorokSzáma());
     }
+
+    // f2
 }
