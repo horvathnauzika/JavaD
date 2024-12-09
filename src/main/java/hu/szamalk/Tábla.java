@@ -64,4 +64,5 @@ public class Tábla {
         return üresOszlopokSzáma;
     }
 
+    // vége
 }
