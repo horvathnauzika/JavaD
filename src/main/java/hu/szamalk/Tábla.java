@@ -17,7 +17,7 @@ public class Tábla {
         this.T = new char[üresCella][üresCella];
     }
 
-    public void kirajzol(int sor, int oszlop){
+    public void Megjelenit(int sor, int oszlop){
         T = new char[8][8];
         for (int i = 0; i < sor; i++) {
             for (int j = 0; j < oszlop; j++) {
