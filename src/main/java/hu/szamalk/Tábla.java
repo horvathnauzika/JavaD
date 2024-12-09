@@ -32,4 +32,36 @@ public class Tábla {
         }
     }
 
+    public int ÜresSorokSzáma(){
+        int üresSorokSzáma = 0;
+        for (int i = 0; i < T.length; i++) {
+            boolean uressor = false;
+            for (int j = 0; j < T[i].length; j++) {
+                if(T[i][j]==ÜresCella){
+                    uressor=true;
+                }
+            }
+            if(uressor){
+                üresSorokSzáma++;
+            }
+        }
+        return üresSorokSzáma;
+    }
+
+    public int ÜresOszlopokSzáma(){
+        int üresOszlopokSzáma = 0;
+        for (int j = 0; j < T[0].length; j++) {
+            boolean üresOszlop = false;
+            for (int i = 0; i < T.length; i++) {
+                if(T[i][j]==ÜresCella){
+                    üresOszlop=true;
+                }
+            }
+            if(üresOszlop){
+                üresOszlopokSzáma++;
+            }
+        }
+        return üresOszlopokSzáma;
+    }
+
 }
